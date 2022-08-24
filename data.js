@@ -1,18 +1,16 @@
-export const singles = [
+const singles = [
   25, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1,
 ];
 
-export const doubles = [
+const doubles = [
   40, 32, 50, 36, 20, 16, 28, 24, 8, 26, 22, 12, 10, 18, 14, 6, 4, 38, 34, 30,
   2,
 ];
-export const trebles = [
+const trebles = [
   60, 57, 54, 51, 48, 45, 42, 39, 36, 33, 30, 27, 24, 21, 18, 15, 12, 9, 6, 3,
 ];
 
-//console.log(singles.reverse());
-
-export const points = [
+const points = [
   { S1: 1, D1: 2, T1: 3 },
   { S2: 2, D2: 4, T2: 6 },
   { S3: 3, D3: 6, T3: 9 },
@@ -36,7 +34,7 @@ export const points = [
   { S25: 25, D25: 50 },
 ];
 
-export const oneDartScores = [
+const oneDartScores = [
   1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
   24, 25, 26, 27, 28, 30, 32, 33, 34, 36, 38, 39, 40, 42, 45, 48, 50, 51, 54,
   57, 60,

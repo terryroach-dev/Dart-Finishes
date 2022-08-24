@@ -1,4 +1,4 @@
-import { singles, doubles, trebles, oneDartScores } from "/data.js";
+//import { singles, doubles, trebles, oneDartScores } from "/data.js";
 
 const finishInput = document.getElementById("finish");
 const submit = document.getElementById("submit-finish");

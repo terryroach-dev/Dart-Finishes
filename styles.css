@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #dbdfac;
+  color: #010400;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-header {
+  text-align: center;
+  padding: 1rem;
+}
+.intro {
+  font-size: 1.4rem;
+}
+
+form {
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+#finish {
+  margin-left: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.25rem;
+}
+#error-message {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 2rem;
+}
+#submit-finish {
+  background-color: #028090;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 1rem;
+}
+#submit-finish:focus,
+#submit-finish:hover {
+  background-color: #216869;
+  color: #dbdfac;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  form label,
+  #finish {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 800px) {
+  form label {
+    font-size: 1.5rem;
+  }
+}
+
+main {
+  margin-top: 0.5rem;
+}
+
+.selected-finish {
+  text-align: center;
+  font-size: 2.5rem;
+}
+#three-dart-finishes,
+#two-dart-finishes,
+#one-dart-finishes {
+  display: none;
+}
+.finishes-list h3 {
+  margin-top: 1rem;
+}
+.finish-method {
+  background-color: #d6c8c2;
+  margin-top: 1rem;
+  padding: 0.25rem;
+  border-radius: 10px;
+}
+.dart-targets,
+.target-points {
+  display: flex;
+  justify-content: space-around;
+}
+.dart-targets {
+  font-size: 1.5rem;
+}
+.target-points {
+  margin-top: 0.25rem;
+}
+@media (min-width: 500px) {
+  .finish-methods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}

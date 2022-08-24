@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dart Finishes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="page-header">Dart Finishes</h1>
+        <h2 class="intro">
+          Not sure of how to finish of the leg, or want an alternative way to
+          your usual?
+        </h2>
+      </header>
+      <form>
+        <label for="finish">Enter the finish you want</label>
+        <input
+          type="number"
+          name="finish"
+          id="finish"
+          min="2"
+          max="170"
+          placeholder="60"
+          autofocus
+        />
+        <span id="error-message"></span>
+        <input type="submit" value="Get me the finishes" id="submit-finish" />
+      </form>
+      <main>
+        <h2 class="selected-finish"></h2>
+        <section class="finishes-list">
+          <section id="one-dart-finishes">
+            <h3>1 dart finishes</h3>
+            <div class="finish-methods" id="one-dart-finishes-div"></div>
+          </section>
+          <section id="two-dart-finishes">
+            <h3>2 dart finishes</h3>
+            <div class="finish-methods" id="two-dart-finishes-div"></div>
+          </section>
+          <section id="three-dart-finishes">
+            <h3>3 dart finishes</h3>
+            <div class="finish-methods" id="three-dart-finishes-div"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="data.js"></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
